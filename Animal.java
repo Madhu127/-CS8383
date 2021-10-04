@@ -1,22 +1,12 @@
 public	class Animal{  
-	void eat(){System.out.println("eating");}  
+	 void eat(){System.out.println("animal is eating...");}  
 	}  
 	  
 	class Dog extends Animal{  
-	void eat(){System.out.println("eating fruits");}  
-	}  
+	 void eat(){System.out.println("dog is eating...");}  
 	  
-	class BabyDog extends Dog{  
-	void eat(){System.out.println("drinking milk");}  
-	  
-	public static void main(String args[]){  
-	Animal a1,a2,a3;  
-	a1=new Animal();  
-	a2=new Dog();  
-	a3=new BabyDog();  
-	  
-	a1.eat();  
-	a2.eat();  
-	a3.eat();  
-	}  
+	 public static void main(String args[]){  
+	  Animal a=new Dog();  
+	  a.eat();  
+      }  
 	}  
